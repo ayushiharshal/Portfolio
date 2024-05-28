@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayushi's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/9a06d03888.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.jpg" class="logo">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <div class="part1">
+        <p>Full-stack Developer</p>
+        <h1>Hi, I'm <span>Ayushi Harshal</span><br>from India</h1>
+        </div>
+        <div class="part2">
+          <img src="Images/ayushi.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------------about-------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a 4th year Computer Science Engineering student at KIIT Bhubaneswar with a CGPA of 9.12. Passionate about learning and exploring new technologies, I enjoy coding and problem-solving. As a tech enthusiast, I actively engage in various extracurricular activities to broaden my skills and experiences. My commitment to continuous learning and my ability to tackle complex challenges make me a versatile and driven individual, ready to contribute effectively in dynamic environments.</p>
+          
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span> Languages:</span> Java, Python, C/C++, SQL, JavaScript, HTML/CSS, Shell Script
+              </li>
+              <li><span>  Developer Tools:</span> Amazon web services, VS Code, IntelliJ, Jupyter notebook, Spyder, Google Colab
+              </li>
+              <li><span>Libraries:</span> OpenCV, Pandas, NumPy, Matplotlib, Scikit-learn</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>DEC 2023 - JAN 2024</span>  AICTE-Salesforce-Developer Virtual Internship
+                <ul class="nested-list">
+                  <li>Developed multiple Lightning applications, enhancing user interfaces and experiences within the Salesforce ecosystem.
+                  </li>
+                  <li>Configured and managed security settings for diverse user roles, ensuring data integrity and compliance with organizational policies.
+                  </li>
+                  <li>Gained hands-on experience with the Apex programming language, writing robust and efficient code for custom Salesforce solutions.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>AUG 2021-MAY 2025: </span> Bachelor of Technology in Computer Science and Engineering from  Kalinga Institute of Industrial Technology
+              Bhubaneswar, Odisha  (CGPA: 9.12)
+              </li>
+              <li><span>APRIL 2018-MARCH 2020: </span> CBSE — Class XII from Bokaro Steel City, Jharkhand — (Percentage: 92.5) 
+              </li>
+              <li><span>APRIL 2008- MARCH 2018: </span>  ICSE — Class X from Carmel Girls School — (Percentage: 89.17)
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------------services------------------------ -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My services</h1>
+      <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Developer</h2>
+        <p>As a web developer, I specialize in creating dynamic and user-friendly websites. With proficiency in HTML, CSS, and JavaScript, I have built numerous projects including a personal portfolio website, a tic-tac-toe game, a password manager, and a currency converter. Currently, I am expanding my skill set by learning Node.js to enhance my backend development capabilities. My passion for web development drives me to continuously improve and stay updated with the latest technologies, ensuring I can deliver efficient and modern web solutions tailored to clients' needs.</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+        <h2>Data Analyst</h2>
+        <p>As a data analyst, I leverage Python and machine learning to create impactful projects. My expertise includes developing a customer segmentation project using K-means clustering and a disease prediction web app that forecasts conditions like heart disease and diabetes through various machine learning algorithms. My analytical skills enable me to uncover valuable insights from data, and my proficiency in machine learning ensures accurate and efficient predictions. I am dedicated to using data-driven approaches to solve complex problems and deliver actionable results, continuously enhancing my knowledge to stay at the forefront of the field.</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-bars-progress"></i>
+        <h2>Event Management</h2>
+        <p>With a proven track record in event management, I excel in orchestrating successful and memorable experiences. Currently serving as the Deputy Director (Public Relations) at TEDxKIITUniversity, I have spearheaded two highly acclaimed events. Additionally, as the Liaison Officer at TEDxKIITMUN for the DISEC community, I efficiently coordinated executive board members and delegates during the three-day event. My adeptness in managing logistics, fostering collaborations, and ensuring seamless coordination reflects my commitment to delivering exceptional events. With a keen eye for detail and a passion for creating impactful experiences, I thrive in dynamic environments and am poised to elevate any event to new heights of success.
+        </p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------portfolio------------------ -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work1.jpg">
+          <div class="layer">
+            <h3>Currency Converter Website</h3>
+            <p>Developed currency converter website enabling seamless conversion between currencies, enhancing financial accessibility and global transactions for users.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work2.jpg">
+          <div class="layer">
+            <h3>Rock Paper Scissors game Website</h3>
+            <p>Created interactive rock-paper-scissors game allowing users to compete against computer, fostering entertainment and strategic thinking in gaming experience.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work3.jpg">
+          <div class="layer">
+            <h3>Password Manager Website</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt tenetur</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------contact---------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row1">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>ayushi.harshal@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ayushi-harshal-74536621b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/ayushiharshal" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/ayushi.harshal/?igsh=MWl1eW9pN3Vvbnpw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/AyushiHarshal" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p> &#169 Copyright made by Ayushi Harshal</p>
+    </div>
+  </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby6lRlMBCMxezYEcDg8ER46WN1bvpAxcdZE_dU5Jx6x5SAq8WP_WxI_Hs-mhpvzKRzM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+     
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
